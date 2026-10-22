@@ -1,0 +1,13 @@
+{
+ "answers": {
+  "file": "y",
+  "remove": "y",
+  "sleeps": "2",
+  "why": "A process is always running in our pc. and A program only runs when we open it."
+ },
+ "values": {
+  "count": 2,
+  "file1": "maple",
+  "file2": "garden"
+ }
+}
