@@ -1,0 +1,18 @@
+{
+ "answers": {
+  "file": "y",
+  "files": "6",
+  "kernel": "7.0.0-38-generic",
+  "sleeps": "1",
+  "why": "A process is in a disk."
+ },
+ "practice": false,
+ "values": {
+  "copy": "maple-copy.txt",
+  "folder": "cp-tiger",
+  "n": 4,
+  "note": "maple.txt",
+  "old": "maple-old.txt",
+  "text": "hello tiger"
+ }
+}

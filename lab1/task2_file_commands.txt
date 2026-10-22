@@ -1,0 +1,10 @@
+/home/gic-nhel-sokunthika/oslab-work/lab1/task2_files
+garden.txt
+maple.txt
+This is file maple
+This is file garden
+garden.txt
+garden_copy.txt
+maple.txt
+garden.txt
+maple_renamed.txt
