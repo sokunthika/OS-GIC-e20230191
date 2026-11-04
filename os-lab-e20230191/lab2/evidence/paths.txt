@@ -1,0 +1,14 @@
+cd incoming
+mv -- "$file1" ../reports/
+cd ..
+mv -- "$OSLAB_WORKSPACE/lab2/incoming/$file2" "$OSLAB_WORKSPACE/lab2/reports/"
+cp -- "reports/$file1" "reports/$file2" "TechCorp/$owner/"
+cp -- "reports/$file1" "TechCorp/$owner/archive/first-original.txt"
+cd "TechCorp/$reader"
+cat "../$owner/$file1"
+cat "$OSLAB_WORKSPACE/lab2/TechCorp/$owner/$file1"
+
+Decision: In step c I used relative paths because I was already in the lab folder and they are shorter to enter another folder.
+
+Error: 'reports/sales north.txt': No such file or directory
+Fix: ../../reports/sales north.txt
