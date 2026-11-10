@@ -1,0 +1,20 @@
+  676  git status
+  677  git branch --show-current
+  678  git remote -v
+  679  cd os-class-activities-e20230191/
+  680  mkdir -p os-class-activities-e20230191/activity2/{task1, task2, task3_shm, task4_mq, screenshots}
+  681  cd os-class-activities-e20230191/activity2
+  682  cd task1
+  683  tree
+  684  rmdr \{task1\
+  685  rmdir  {task1,
+  686  tree
+  687  mkdir task1 task2 task3_shm task4_mq screenshots
+  688  tree
+  689  cd ~/activity2/task1 
+  690  cd gic-nhel-sokunthika/os-gic-e20230191/os-class-activities-e20230191/activity2/task1
+  691  cd os-gic-e20230191/os-class-activities-e20230191/activity2/task1
+  692  cd os-gic-e20230191/os-class-activities-e20230191/activity2/task1ps -ef --forest | grep forkchild
+  693  pstree -p $(pgrep -o forkchild)
+  694  ps -ef --forest | grep forkchild
+  695  pstree -p $(pgrep -o forkchild)
