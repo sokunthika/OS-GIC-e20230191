@@ -1,0 +1,30 @@
+    1  cd ~/os-class-activities/activity3/task1_socket
+    2  ./client
+    3  ./server > result_server.txt 2>&1 &
+    4  sleep 1
+    5  ./client > result_client.txt 2>&1
+    6  wait
+    7  cat result_server.txt result_client.txt > result_socket.txt
+    8  cat result_socket.txt
+    9  history | tail -n 20 > command_used_socket.txt
+   10  cd ~/os-class-activities/activity3/task2_threads
+   11  clear
+   12  gcc -o threads threads.c -pthread
+   13  gcc -o threads_mutex threads_mutex.c -pthread
+   14  ./threads > result_threads.txt 2>&1
+   15  cat result_threads.txt
+   16  ./threads_mutex > result_threads_mutex.txt 2>&1
+   17  cat result_threads_mutex.txt
+   18  history | tail -n 20 > command_used_threads.txt
+   19  ./threads > result_threads.txt 2>&1; cat result_threads.txt
+   20  sed '/pthread_join/d' threads.c > nojoin.c
+   21  gcc -o nojoin nojoin.c -pthread
+   22  ./nojoin
+   23  cd ~/os-class-activities/activity3/task3_java
+   24  clear
+   25  javac ThreadDemo.java RunnableDemo.java PoolDemo.java
+   26  java ThreadDemo > result_thread_demo.txt 2>&1
+   27  java RunnableDemo > result_runnable_demo.txt 2>&1
+   28  java PoolDemo > result_pool_demo.txt 2>&1
+   29  cat result_thread_demo.txt result_runnable_demo.txt result_pool_demo.txt
+   30  history | tail -n 30 > command_used_java.txt

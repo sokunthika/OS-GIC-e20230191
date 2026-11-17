@@ -1,0 +1,11 @@
+    PID     LWP NLWP PSR STAT COMMAND
+   8218    8218    5   8 Sl   threads_observe
+   8218    8220    5   7 Sl   threads_observe
+   8218    8221    5   1 Sl   threads_observe
+   8218    8222    5  13 Sl   threads_observe
+   8218    8224    5  13 Sl   threads_observe
+    PID    PPID PSR COMMAND
+      7       2  17 init
+    447       2   9 SessionLeader
+    672       2  12 login
+   7755       2   1 SessionLeader
