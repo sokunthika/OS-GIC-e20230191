@@ -1,0 +1,9 @@
+
+=== NEW FILE USING THE OLD NAME ===
+19268214 -rw-rw-r-- 2 gic-nhel-sokunthika gic-nhel-sokunthika 12 Nov 17 10:30 bridge-backup.txt
+19268214 -rw-rw-r-- 2 gic-nhel-sokunthika gic-nhel-sokunthika 12 Nov 17 10:30 bridge-hard.txt
+19268273 lrwxrwxrwx 1 gic-nhel-sokunthika gic-nhel-sokunthika 10 Nov 17 10:33 bridge-soft.txt -> bridge.txt
+19268306 -rw-rw-r-- 1 gic-nhel-sokunthika gic-nhel-sokunthika 12 Nov 17 10:44 bridge.txt
+bridge.txt: version 319
+hard: version 285
+soft: version 319

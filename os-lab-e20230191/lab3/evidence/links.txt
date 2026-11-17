@@ -1,0 +1,32 @@
+
+=== BEFORE RENAME ===
+19268214 -rw-rw-r-- 2 gic-nhel-sokunthika gic-nhel-sokunthika 12 Nov 17 10:30 bridge-hard.txt
+19268273 lrwxrwxrwx 1 gic-nhel-sokunthika gic-nhel-sokunthika 10 Nov 17 10:33 bridge-soft.txt -> bridge.txt
+19268214 -rw-rw-r-- 2 gic-nhel-sokunthika gic-nhel-sokunthika 12 Nov 17 10:30 bridge.txt
+hard: version 285
+soft: version 285
+stored target: bridge.txt
+
+=== AFTER RENAME, BEFORE REPAIR ===
+ls: cannot access 'bridge-backup.txt': No such file or directory
+19268214 -rw-rw-r-- 2 gic-nhel-sokunthika gic-nhel-sokunthika 12 Nov 17 10:30 bridge-hard.txt
+19268273 lrwxrwxrwx 1 gic-nhel-sokunthika gic-nhel-sokunthika 10 Nov 17 10:33 bridge-soft.txt -> bridge.txt
+hard: version 285
+stored target: bridge.txt
+soft: version 285
+
+=== AFTER RENAME, BEFORE REPAIR ===
+19268214 -rw-rw-r-- 2 gic-nhel-sokunthika gic-nhel-sokunthika 12 Nov 17 10:30 bridge-backup.txt
+19268214 -rw-rw-r-- 2 gic-nhel-sokunthika gic-nhel-sokunthika 12 Nov 17 10:30 bridge-hard.txt
+19268273 lrwxrwxrwx 1 gic-nhel-sokunthika gic-nhel-sokunthika 10 Nov 17 10:33 bridge-soft.txt -> bridge.txt
+hard: version 285
+stored target: bridge.txt
+soft: cat: bridge-soft.txt: No such file or directory
+
+=== AFTER REPAIR ===
+19268214 -rw-rw-r-- 2 gic-nhel-sokunthika gic-nhel-sokunthika 12 Nov 17 10:30 bridge-backup.txt
+19268214 -rw-rw-r-- 2 gic-nhel-sokunthika gic-nhel-sokunthika 12 Nov 17 10:30 bridge-hard.txt
+19268273 lrwxrwxrwx 1 gic-nhel-sokunthika gic-nhel-sokunthika 17 Nov 17 11:14 bridge-soft.txt -> bridge-backup.txt
+stored target: bridge-backup.txt
+hard: version 285
+soft: version 285
